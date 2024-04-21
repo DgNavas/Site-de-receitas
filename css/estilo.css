@@ -1,0 +1,276 @@
+/* Estilos para os itens de conteúdo */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distribui os itens horizontalmente */
+    align-items: center; /* Centraliza verticalmente os itens */
+    margin-bottom: 20px; /* Espaço entre cada seção */
+}
+
+.texto {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.imagem {
+    flex-shrink: 0; /* Não diminui de tamanho */
+}
+
+/* Estilos para links */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Resetando estilos padrão do navegador */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Definindo formatação da logotipo */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Adiciona margem à direita para separar o texto */
+}
+
+/* Definindo formatação das áreas semânticas */
+header, main, footer {
+    padding: 10px;
+}
+
+header, .welcome {
+    margin-top: 5px;
+}
+
+/* Características tipográficas globais */
+body {
+    background-color: rgb(238, 252, 245);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(255, 165, 0);
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(255, 165, 0);
+    text-shadow: 1px, 1px, 1px #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify; /* Justifica todos os parágrafos */
+}
+
+/* Explorando flexbox */
+header {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens à esquerda e à direita */
+    align-items: center; /* Ajusta a altura verticalmente */
+    background-color: rgb(20, 205, 200);
+}
+
+.welcome {
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    margin: auto;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+/* Posicionamento das áreas semânticas */
+main {
+    display: flex;
+    align-items: flex-start; /* Ajusta a altura verticalmente */
+    padding: 20px; /* Adicionado para manter a consistência */
+}
+
+footer {
+    text-align: center;
+}
+
+/* Definindo formatação das áreas semânticas após o reset */
+/* Definindo formatação da logotipo após o reset */
+/* Características tipográficas globais após o reset */
+/* Posicionamento das áreas semânticas após o reset */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+p2 {
+    margin-top: 20px;
+    max-width: 50%; /* Limita a largura do texto */
+    text-align: center;
+}
+
+.chef-image {
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.logosf {
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.salmao {
+    width: 400px;
+    height: 400px;
+    margin-right: 60px;
+}
+
+/* Estilos para os containers */
+.container-wrapper {
+    display: flex; /* Display flex para alinhar os containers lado a lado */
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o conteúdo dentro dos containers */
+.container h2 {
+    color: #333;
+}
+
+.container p {
+    color: #666;
+}
+
+.receitaum,
+.receitadois,
+.receitatres {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+/* Estilos para a receita */
+.recipe-container {
+    display: flex;
+}
+
+.recipe-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Estilos para o conteúdo dentro dos containers */
+.recipe-text p2 {
+    margin-top: 0;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos um acima do outro */
+    margin-left: 50px;
+}
+
+.ingredientes {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.salmao {
+    max-width: 600px; /* Ajuste a largura máxima conforme necessário */
+    height: auto; /* Isso permite que a altura seja ajustada automaticamente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
+
+main .welcome {
+    margin-top: 100px;
+    margin-left: 400px;
+    text-align: center;
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto; /* Margem à esquerda automática */
+    margin-right: auto; /* Margem à direita automática */
+}
+
+.logoback {
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto; /* Margem à esquerda automática */
+    margin-right: auto; /* Margem à direita automática */
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin-left: auto; /* Margem à esquerda automática */
+    margin-right: auto; /* Margem à direita automática */
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-between; /* Distribui os itens horizontalmente */
+    width: 100%;
+}
+
+.texto {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.imagem {
+    flex-shrink: 0; /* Não diminui de tamanho */
+    margin-top: auto; /* Alinha a imagem ao final do contêiner */
+    margin-right: 50px; /*Alinha a imagem 50 pixels da direita da borda*/
+}
